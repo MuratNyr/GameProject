@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GameProject.Abstract
+{
+    public interface ICampaignService
+    {
+        void Add(Campaign offer);
+        void Delete(Campaign offer);
+        void Update(Campaign offer);
+    }
+}
